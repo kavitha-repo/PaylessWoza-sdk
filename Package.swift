@@ -16,17 +16,17 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "PaylessWoza",
-            url: "https://147.182.192.25/shared/PaylessWoza.xcframework.zip",
+            url: "https://147.182.192.25:445/shared/PaylessWoza.xcframework.zip",
             checksum: "5f317a68e164444bb84b6811360728af8b9750dca0bd11b2bac1c2ff6ab60fa4"
         ),
         .binaryTarget(
             name: "AmityUIKit",
-            url: "https://147.182.192.25/shared/AmityUIKit.xcframework.zip",
+            url: "https://147.182.192.25:445/shared/AmityUIKit.xcframework.zip",
             checksum: "16d9573defe4d2b842b4387c402fc2dc583f7e596be42442846c65a418e4431a"
         ),
         .binaryTarget(
             name: "AmityUIKit4",
-            url: "https://147.182.192.25/shared/AmityUIKit4.xcframework.zip",
+            url: "https://147.182.192.25:445/shared/AmityUIKit4.xcframework.zip",
             checksum: "7b54d513e634b93f966baf2c1ea4b95d4ca4b0cfa3afe146eadd3110ad1d6ca5"
         ),
         .binaryTarget(
